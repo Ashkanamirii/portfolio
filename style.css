@@ -320,6 +320,18 @@ aside{
     #about img{
         size: 200px 200px;
     }
+
+    /* contact*/
+    .title-contact{
+        margin:10px 30px;
+    }
+    #contact{
+        flex-wrap: wrap;
+    }
+    #contact input, textarea{
+        width: 349px;
+        margin-left: 29px;
+    }
     
 }
 @media only screen and (min-width: 600px) {
@@ -346,3 +358,8 @@ aside{
         left: 371px;
     }
 }
+/* #img-header{
+    display:block;
+    
+
+} */
