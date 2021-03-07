@@ -84,7 +84,6 @@ body{
     background: rgb(36, 35, 35);
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     width: 80%;
     margin: auto;
     border-radius: 10px;
@@ -216,9 +215,27 @@ footer{
     padding:15px 0 0 15px;
     color: white;
 }
-.project div{
- 
-}
+
+
+  #my-projects a:link {
+    color: #959599;
+  }
+  
+  /* visited link */
+  #my-projects a:visited {
+    color: #accbf3;
+  }
+  
+  /* mouse over link */
+  #my-projects a:hover {
+    color: #ff0000;
+  }
+  
+  /* selected link */
+  #my-projects a:active {
+    color: #ffff00;
+  } 
+
 .project div{
     display: flex;
     flex-wrap: wrap;
@@ -296,6 +313,12 @@ aside{
     }
     .position-txt{
         text-align: center;
+    }
+    #about{
+        flex-wrap: wrap;
+    }
+    #about img{
+        size: 200px 200px;
     }
     
 }
