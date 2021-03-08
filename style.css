@@ -285,7 +285,7 @@ aside{
     transform: scale(1.2);
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices ( 600px and down) */
 @media only screen and (max-width: 600px) {
     #navbar a {
         font-size: 12pt;
@@ -296,7 +296,7 @@ aside{
         padding-top: 65px;
         height: 667px;
         margin-bottom: 15px;
-        background: #a4a4a4 url(images/alpha-academy-java.jpg) no-repeat -396px;
+        background: url(images/alpha-academy-java.jpg) no-repeat -600px;
     }
     .title{
         top: 400px;
@@ -319,7 +319,7 @@ aside{
     }
     #about img{
         width: 180px;
-        height: 200px;
+        height: 250px;
     }
     #about h1 {
         position: relative;
