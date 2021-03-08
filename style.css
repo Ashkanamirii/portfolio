@@ -231,6 +231,7 @@ footer{
   /* mouse over link */
   #my-projects a:hover {
     color: #ff0000;
+    transform: scale(1.2);
   }
   
   /* selected link */
@@ -241,11 +242,8 @@ footer{
 .project div{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     padding: 30px 0 20px 0;
-    border: 1px solid #2500f8;
-    border-radius: 0 0 7px 7px;
-    border-top: none;
 }
 .project img{
     margin:10px;
