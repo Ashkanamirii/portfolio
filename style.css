@@ -328,7 +328,6 @@ aside{
    
     #contact{
         flex-wrap: wrap;
-        margin: left 5px;
     }
     #contact input, textarea{
         width: 300px;
@@ -340,7 +339,7 @@ aside{
         width: 90%;
     }
     #contact-me{
-        margin:0;
+        padding: 0;
     }
     .title-contact {
         margin-top: 30px;
