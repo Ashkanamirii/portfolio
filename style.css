@@ -185,13 +185,13 @@ footer{
 }
 .gmap_canvas {
     overflow:hidden;
-    background:none!important;
     height:500px;
-    width:95%;
+    width:100%;
+    margin-left: auto;
 }
 .gmap_canvas iframe{
     height:500px;
-    width:95%;
+    width:100%;
 }
 
 /* ########### portfolio ############# */
@@ -325,15 +325,25 @@ aside{
         position: relative;
     }
     /* contact*/
-    .title-contact{
-        margin:10px 30px;
-    }
+   
     #contact{
         flex-wrap: wrap;
+        margin: left 5px;
     }
     #contact input, textarea{
-        width: 349px;
-        margin-left: 29px;
+        width: 300px;
+        margin: 4px;
+    }
+    #contact button {
+        margin:4px;
+        padding: 4px;
+        width: 90%;
+    }
+    #contact-me{
+        margin:0;
+    }
+    .title-contact {
+        margin-top: 30px;
     }
     
 }
@@ -364,8 +374,3 @@ aside{
         left: 371px;
     }
 }
-/* #img-header{
-    display:block;
-    
-
-} */
